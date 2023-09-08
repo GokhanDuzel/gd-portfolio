@@ -1,9 +1,8 @@
-@media (min-width: 580px) { 
+@media screen and (max-width: 580px) { 
   #home {
     background-color: #7600bc;
     padding-bottom: 1cm;
-    margin-left: -1cm;
-    margin-right: -1cm;
+    margin-left: -1.5cm;
     margin-top: -1cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
@@ -16,11 +15,11 @@
     padding: 20px;
     font-size: 20px;
     text-decoration: none;
+    visibility: hidden;
   }
   
   .topmenu:hover {
     color: white;
-    /* Add the styles here */
     font-weight: bolder;
     text-decoration: underline;
   }
@@ -33,13 +32,12 @@
   .profile_name {
     float: left;
     padding-left: 2cm;
-    /* Add the styles here */
     color: white;
     font-size: 30px;
   }
   
   .profile_name .contact_info {
-    font-size: 15px;
+    font-size: 13px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -56,7 +54,8 @@
 #home {
   background-color: #7600bc;
   padding-bottom: 1cm;
-  margin-left: -1.5cm;
+  margin-left: -1cm;
+ 
   margin-top: -1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
@@ -69,11 +68,11 @@
   padding: 20px;
   font-size: 20px;
   text-decoration: none;
-  visibility: hidden;
 }
 
 .topmenu:hover {
   color: white;
+  /* Add the styles here */
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -86,12 +85,13 @@
 .profile_name {
   float: left;
   padding-left: 2cm;
+  /* Add the styles here */
   color: white;
   font-size: 30px;
 }
 
 .profile_name .contact_info {
-  font-size: 13px;
+  font-size: 15px;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -103,3 +103,4 @@
   margin-right: 10px;
   float: left;
 }
+
