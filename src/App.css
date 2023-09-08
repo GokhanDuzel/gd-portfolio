@@ -2,26 +2,16 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.info-card-container {
-  margin: auto;
-}
-
-.floating-object {
+/* .floating-object {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: wiggle 5s infinite ease-in-out; /* Adjust the duration and animation timing as needed */
-}
+  animation: wiggle 5s infinite ease-in-out; 
+} */
 
 /* Create the wiggling animation */
-@keyframes wiggle {
+/* @keyframes wiggle {
   0%,
   100% {
     transform: translate(-50%, -50%) rotate(0deg);
@@ -32,7 +22,7 @@
   75% {
     transform: translate(-50%, -50%) rotate(-5deg);
   }
-}
+} */
 
 h2 {
   text-align: justify;

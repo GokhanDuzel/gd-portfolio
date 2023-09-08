@@ -1,10 +1,69 @@
+@media (min-width: 580px) { 
+  .experience {
+    margin: 3rem auto;
+    background: linear-gradient(#250358, #440c66);
+    padding: 1.5rem;
+    box-shadow: 0 3px 2px rgba(79, 16, 79, 0.736);
+    transition: all 0.2s;
+    width: 33rem;
+  }
+
+  .experience:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+  }
+
+  .experience:active {
+    box-shadow: 0 2px 30px rgba(50, 6, 52, 0.4);
+    transform: translateY(4px);
+  }
+
+  .experience-header {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .experience-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-inside-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+  }
+
+  .accordion-extender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  .accordion-content{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
 .experience {
   margin: 3rem auto;
   background: linear-gradient(#250358, #440c66);
   padding: 1.5rem;
   box-shadow: 0 3px 2px rgba(79, 16, 79, 0.736);
   transition: all 0.2s;
-  width: 33rem;
+  
 }
 
 .experience:hover {
@@ -55,8 +114,13 @@ h3 {
   margin-top: 2rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 li {
   text-align: left;
+  margin-top: 10px;
 }
 
 

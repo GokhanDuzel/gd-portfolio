@@ -18,16 +18,16 @@ code {
 
 
 /* Create the floating object */
-.floating-object {
+/* .floating-object {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px; /* Adjust the size to match the size of the PNG image */
+  width: 100px; 
   height: 100px;
   background-color: transparent;
-  animation: wiggle 5s infinite ease-in-out; /* Adjust the duration and animation timing as needed */
-}
+  animation: wiggle 5s infinite ease-in-out; 
+} */
 
 /* Create the wiggling animation */
 @keyframes wiggle {

@@ -34,7 +34,7 @@ const Experience = (props) => {
         >
             <ul>
               {props.experience.description.map((item) => <li>{item}</li>
-              )};
+              )}
             </ul>
         </div>
       )}
