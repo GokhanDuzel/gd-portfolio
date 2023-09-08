@@ -55,6 +55,10 @@ h3 {
   margin-top: 2rem;
 }
 
+li {
+  text-align: left;
+}
+
 
 
 /* .expense-item h2 {
