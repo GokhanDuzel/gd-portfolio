@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gd-portfolio/static/css/main.14a79836.css",
+    "main.js": "/gd-portfolio/static/js/main.1b0a7b2d.js",
+    "index.html": "/gd-portfolio/index.html",
+    "main.14a79836.css.map": "/gd-portfolio/static/css/main.14a79836.css.map",
+    "main.1b0a7b2d.js.map": "/gd-portfolio/static/js/main.1b0a7b2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a79836.css",
+    "static/js/main.1b0a7b2d.js"
+  ]
+}
