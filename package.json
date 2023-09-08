@@ -1,6 +1,6 @@
 {
-  "homepage": "https://GokhanDuzel.github.io/gdweb",
-  "name": "gdweb",
+  "homepage": "https://GokhanDuzel.github.io/gd-portfolio",
+  "name": "gd-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
