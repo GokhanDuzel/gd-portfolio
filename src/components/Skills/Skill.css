@@ -1,11 +1,11 @@
 .skill {
   border: 1px solid gray;
   display: block;
-  border-radius: 6px;
+  border-radius: 30px;
   text-align: center;
-  margin: 50px;
+  margin: 25px;
   padding: 10px;
-  width: 2in;
-  font-size: 20px;
-  box-shadow: 0 3px 10px gray;
+  width: 6rem;
+  font-size: 10px;
+  box-shadow: 0 3px 5px gray;
 }

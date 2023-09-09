@@ -1,6 +1,6 @@
-@media screen and (max-width: 580px) { 
+@media screen and (max-width: 870px) { 
   #home {
-    background-color: #7600bc;
+    background-color: #4c0178;
     padding-bottom: 1cm;
     margin-left: -1.5cm;
     margin-top: -1cm;
@@ -52,10 +52,9 @@
 }
 
 #home {
-  background-color: #7600bc;
+  background-color: #4c0178;
   padding-bottom: 1cm;
   margin-left: -1cm;
- 
   margin-top: -1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
@@ -66,7 +65,7 @@
   color: lightgray;
   margin: 10px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -103,4 +102,3 @@
   margin-right: 10px;
   float: left;
 }
-

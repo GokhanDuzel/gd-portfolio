@@ -25,14 +25,14 @@ const Header = () => {
           </div>
         </div>
         <div className="topdiv">
-          <a className="topmenu" href="#about-me">
-            About Me
+          <a className="topmenu" href="#experiences">
+            Experiences
+          </a>
+          <a className="topmenu" href="#education">
+            Education
           </a>
           <a className="topmenu" href="#skills">
             Skills
-          </a>
-          <a className="topmenu" href="#projects">
-            Projects
           </a>
           <a className="topmenu" href="#recommendations">
             Recommendations

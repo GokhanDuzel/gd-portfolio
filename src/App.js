@@ -54,7 +54,7 @@ function App() {
       position: "Junior Web Developer",
       startDate: new Date(2020, 0),
       endDate: new Date(2020, 3),
-      location: "Ottawa, Canada",
+      location: "Istanbul, Turkey",
       description: [
         "Contributed to the Acibadem Healthcare R&D team with the employer website page.",
         "Familiarized with Angular and TypeScript.",
@@ -68,7 +68,7 @@ function App() {
   const educations = [
     {
       institution: "University of Ottawa",
-      field: "Bachelors in Software Engineering",
+      field: "Bachelors' in Software Engineering",
     },
     {
       institution: "Istanbul Saint-Joseph French Highschool",
@@ -77,16 +77,31 @@ function App() {
 
   ];
 
+  const skills = [
+    "Python","C","C++","Java",
+    "JavaScript","TypeScript","React","ReactNative",
+    "HTML5","CSS3","Django","Express",
+    "Node.js","CI/CD","Flask","Git & GitHub",
+    "Paramiko","Slash","unit testing","PostgreSQL",
+    "Jira","Confluence","Flask","Numpy", 
+    "Agile","OOP","MariaDB","Microservices",
+    "Serverless","Cloud","Linux","Windows",
+    "Bash","MacOS","Atlassian","AndroidStudio",
+  ];
+
   return (
     <div className="App">
       <Header />
       <div className="info-card-container">
-        <Experiences experiences={experiences} />
+        <Experiences id="experiences" experiences={experiences} />
+        <hr />
         {/* <div class="floating-object">
           <img src="path-to-your-planet-image.png" alt="Planet Image"></img>
         </div> */}
         <Educations educations={educations}/>
-        <Skills />
+        <hr />
+        <Skills skills={skills}/>
+        <hr />
         <BackToHomeButton />
       </div>
     </div>

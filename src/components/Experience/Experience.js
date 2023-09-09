@@ -20,9 +20,9 @@ const Experience = (props) => {
             endDate={props.experience.endDate}
           />
           <div className="experience-description">
-            <p>{props.experience.position}</p>
-            <p>{props.experience.company}</p>
-            <p>{props.experience.location}</p>
+            <p className="position">{props.experience.position}</p>
+            <p className="company">{props.experience.company}</p>
+            <p className="location">{props.experience.location}</p>
           </div>
         </div>
         <h3 className="accordion-extender">{isActive ? "-" : "+"}</h3>

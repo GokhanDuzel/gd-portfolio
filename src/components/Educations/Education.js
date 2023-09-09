@@ -6,8 +6,8 @@ const Education = (props) => {
 
   return (
     <Card className="education">
-        <p>{props.education.institution}</p>
-        <p>{props.education.field}</p>
+        <p className="institution">{props.education.institution}</p>
+        <p className="field">{props.education.field}</p>
     </Card>
   );
 };

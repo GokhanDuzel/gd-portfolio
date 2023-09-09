@@ -1,10 +1,9 @@
 import "./Skill.css";
 
-const Skill = () => {
+const Skill = (props) => {
   return (
     <div className="skill">
-      <h6>JavaScript</h6>
-      <p>3 years experience</p>
+      <h6>{props.skill}</h6>
     </div>
   );
 };

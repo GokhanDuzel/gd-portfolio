@@ -55,6 +55,21 @@
   h3 {
     margin-top: 2rem;
   }
+
+  .position {
+    font-size: 1.2rem;
+    color: orange;
+  }
+
+  .company {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .location {
+    font-size: .7rem;
+    color: grey;
+  }
 }
 
 .experience {
@@ -108,10 +123,6 @@
   display: flex;
   flex-direction: column;
   align-items: baseline;
-}
-
-h3 {
-  margin-top: 2rem;
 }
 
 h2 {
